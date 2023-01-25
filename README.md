@@ -9,6 +9,8 @@
 1. Alex Gonzalez
 1. Nahuel Liendro
 
+[Notion](https://efficacious-cost-b5c.notion.site/Artisan-13f5d53786f44b788e127da2e252e271)
+
 ### Fuentes:
 
 Titulos: [Rajdhani](https://fonts.google.com/specimen/Rajdhani?query=Rajdhani&preview.text=%20THE%20NEW%20RAZER%20BLADE%2016%20%26%2018&preview.text_type=custom)
