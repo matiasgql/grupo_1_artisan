@@ -3,6 +3,12 @@
 ### Paleta de colores:
 ![alt text](https://i.imgur.com/NPARW5M.png)
 
+### Participantes:
+1. Matias Gabriel Quinzan Linares
+1. Mateo Guzman
+1. Alex Gonzalez
+1. Nahuel Liendro
+
 ### Fuentes:
 
 Titulos: [Rajdhani](https://fonts.google.com/specimen/Rajdhani?query=Rajdhani&preview.text=%20THE%20NEW%20RAZER%20BLADE%2016%20%26%2018&preview.text_type=custom)
