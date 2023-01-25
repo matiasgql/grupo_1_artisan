@@ -1,12 +1,15 @@
 # Artisan
 
-[alt text](https://www.notion.so/Artisan-13f5d53786f44b788e127da2e252e271#608771a20f41481696f750b4ed5d64da)
+### Paleta de colores:
+![alt text](https://i.imgur.com/NPARW5M.png)
 
-Escritura:
+### Fuentes:
+
 Titulos: Rajdhani https://fonts.google.com/specimen/Rajdhani?query=Rajdhani&preview.text=%20THE%20NEW%20RAZER%20BLADE%2016%20%26%2018&preview.text_type=custom
+
 Cuerpo: Montserrat https://fonts.google.com/specimen/Montserrat?query=monts
 
-#### Páginas de referencia:
+### Páginas de referencia:
 1. https://foundation.app/world/monolith-exhibition-x
 la distribucion de sus colores y como esta organizado el sitio web
 
