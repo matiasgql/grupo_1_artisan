@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/zsqtY81.png" width="128"/>
+
 # Artisan
 
 ### Paleta de colores:
