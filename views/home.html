@@ -7,6 +7,7 @@
     <title>Pagina de inicio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/916727133d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/home.css">
     <style>
         /* Barra de desplazamiento */
@@ -229,19 +230,38 @@
         });
     </script>
     <footer>
-        <a class="image-insta" href="Instagram">
-            <img src="/images/instagram-logo-icone.png">
+        <div class="image-flex">
+        <a href="Instagram">
+            <img class="footer-image" src="/images/instagram-logo-icone.png">
         </a>
-        <a class="image-face" href="Facebook">
-            <img src="/images/facebook-logo.png">
+        <a href="Facebook">
+            <img class="footer-image" src="/images/facebook-logo.png">
         </a>
-        <a class="image-twit" href="Twiter">
-            <img src="/images/twitter-logo.png">
+        <a href="Twiter">
+            <img class="footer-image" src="/images/twitter-logo.png">
         </a>
-
-        <img class="img" src="image.png">
+        </div>
+        <div class="main-image">
+            <img src="/images/main-image.png">
+            <div class="text">¿Quieres saber mas informacion?
+            Contactanos
+            <div class="fa-solid fa-arrow-down-long"></div>
+            </div>
+        </div>
+        <form action="/enviar-mensaje" method="POST">
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" name="nombre" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="mensaje">Mensaje:</label><br />
+            <textarea id="mensaje" name="mensaje"></textarea><br />
+            <input type="submit" value="Enviar mensaje" />
+          </form>
+        
+        <span>
+            <p class="copyright">futuro copirigth :)</p>
+        </span>
     </footer>
-
     
 </body>
 </html>
