@@ -1,0 +1,116 @@
+/*Importamos Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*Importamos Rajdhani*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+body {
+    background: linear-gradient(90deg, #000 50%, #00FF00 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    padding: 6.25%;
+    padding-top: 3.125%;
+    padding-bottom: 0;
+    width: 40%;
+}
+
+input {
+    display: flex;
+    width: 90%;
+    height: 48px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    margin-top: 38px;
+    font-size: 17px;
+    border: #676767 solid 3px;
+    caret-color: #00FF00;
+}
+
+input:focus-visible {
+    border-color: #00FF00;
+    border-style: solid;
+    outline:  none;
+}
+
+a, p {
+    color: #676767;
+    font-family: "Montserrat";
+    font-size: 16px;
+    text-decoration: none;
+    display: inline;
+}
+
+span {
+    margin-top: 30px;
+    margin-bottom: 64px;
+}
+
+a {
+    color: #00FF00;
+}
+
+button {
+    display: flex;
+    background-color: #00FF00;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-family: "Rajdhani";
+    font-size: 36px;
+    width: 100%;
+    height: 90px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #00FF00;
+    font-family: "Rajdhani";
+    font-weight: 500;
+    font-size: 36px;
+}
+
+div {
+    display: contents;
+    width: 100%;
+    height: 100%;
+    
+}
+
+img {
+    width: 35%;
+    align-items: center;
+    padding: 6.25%;
+    padding-top: 3.125%;
+    padding-bottom: 0;
+}
+
+#vl {
+    border-left: 40px solid #676767;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+@media (max-width: 900px) {
+    body {
+        background: black;
+    }
+    img {
+        display: none;
+    }
+    form {
+        width: 80%;
+    }
+}

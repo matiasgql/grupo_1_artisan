@@ -13,7 +13,7 @@ app.get("/register", (req, res) => {res.sendFile(path.join(__dirname,"/views/reg
 
 app.get("/login", (req, res) => {res.sendFile(path.join(__dirname,"/views/login.html"))})
 
-app.get("/detalle_procuto", (req, res) => {res.sendFile(path.join(__dirname,"/views/productDetail.html"))})
+app.get("/detalle_producto", (req, res) => {res.sendFile(path.join(__dirname,"/views/productDetail.html"))})
 
 app.get("/carrito_de_compra", (req, res) => {res.sendFile(path.join(__dirname,"/views/productCart.html"))})
 
