@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /*Importamos Rajdhani*/
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 /*
 body {
     display: none;
@@ -14,11 +22,60 @@ body {
     background-color: white;
     display: block;
 }*/
+body{
+    background-color: #060642;
+}
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+header {
+    background-color: #060642;
+    position: relative;
+}
+
+.listas {
+    display: inline-block;
+    background-color: #00ff00;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.barra_busqueda {
+    width: 50%;
+    position: relative;
+    left: 39rem;
+    bottom: 40px;
+}
+
+.logo_lupa{
+    background-color: #FFFFFF;
+    padding: 14px 10px;
+    border-radius: 4px;
+    position: relative;
+    left: 38rem;
+    bottom: 40px;
+    width: fit-content;
+}
+
+.imagen_header{
+    position: relative;
+    max-width: 90px;
+    height: 44px;
+    left: 90rem;
+    bottom: 103px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 7px 9px;
+}
+
+.imagen_fondo_header{
+    height: 15rem;
+}
+
+.contenedor_header{
+    text-align: center;
+    position: relative;
+    background-color: black;
+    padding: 15rem
 }
 
 .swiper {
@@ -45,17 +102,17 @@ a {
 .category-name {
     font-family: "Montserrat";
     top: 75%;
-    position:absolute;
+    position: absolute;
     background-color: white;
     border-radius: 8px;
     padding: 8px;
     font-size: 32px;
-    margin:auto;
+    margin: auto;
     z-index: 1;
 }
 
 .categoria:hover {
-    transform:translateY(-16px);
+    transform: translateY(-16px);
     opacity: 0.75;
 }
 
@@ -81,7 +138,7 @@ a {
     margin-top: 8px;
 }
 
-.product-info{
+.product-info {
     background-color: white;
     border-radius: 8px;
     font-size: 24px;
@@ -110,8 +167,9 @@ a {
         height: 0px;
         bottom: 0px;
         margin-bottom: 0px;
-        position:absolute;
+        position: absolute;
     }
+
     100% {
         display: block;
         opacity: 100%;
@@ -146,21 +204,23 @@ h4 {
 @keyframes hoverProducts {
     0% {
         cursor: pointer;
-        transform:translateY(0px);
+        transform: translateY(0px);
         box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
     }
+
     100% {
         cursor: pointer;
-        transform:translateY(-16px);
+        transform: translateY(-16px);
         box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
     }
 }
 
-.product:hover, .categoria:hover {
+.product:hover,
+.categoria:hover {
     animation-name: hoverProducts;
     animation-duration: 100ms;
     cursor: pointer;
-    transform:translateY(-16px);
+    transform: translateY(-16px);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
 }
 
@@ -173,40 +233,47 @@ h4 {
     color: black;
     font-weight: 1000;
 }
+
 /*Pie de Pagina(Footer)*/
 footer {
     background-color: #c8c5c5;
 }
+
 .footer-image {
     width: 50px;
     height: 50px;
     border-radius: 30px;
     margin-top: 20px;
 }
+
 .image-flex {
     display: flex;
     justify-content: end;
     margin: 40px;
     gap: 20px;
 }
+
 .main-image {
     max-width: 200px;
     height: 200px;
     margin: 20px;
     display: flex;
 }
+
 div .text {
-    float:left;
-    width:100px;
-    margin:0px;
+    float: left;
+    width: 100px;
+    margin: 0px;
     text-align: center;
     margin-left: 200px;
     font-size: 20px;
 }
+
 .text-contact {
-    margin-left: 40px ;
+    margin-left: 40px;
 
 }
+
 form {
     width: 500px;
     margin: 0 auto;
@@ -214,17 +281,17 @@ form {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
-  }
-  
-  input,
-  textarea {
+}
+
+input,
+textarea {
     width: 100%;
     padding: 12px 20px;
     margin-bottom: 20px;
@@ -232,20 +299,21 @@ form {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 16px;
-  }
-  
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     background-color: #4caf50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
+}
+
+input[type="submit"]:hover {
     background-color: #45a049;
-  }
+}
+
 .copyright {
     background-color: #868484;
 }
