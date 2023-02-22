@@ -1,4 +1,3 @@
-*En si creemos que hicimos bastante bien las cosas en armar la estrcutura e organizarnos al  omento de trabajar de una formar
-más rapida y sencilla.
+*En si creemos que hicimos bastante bien las cosas en armar la estructura y organizarnos al momento de trabajar de una forma más rapida y sencilla.
 
-*Puntos que podemos mejorar es pulir mas cosas de estilo e entendernos un poco mejor en codigo.
+*Puntos que podemos mejorar es pulir mas cosas de estilo y entendernos un poco mejor en codigo.
