@@ -16,6 +16,7 @@ body {
 #ProdImg {
     padding: 64px;
     width: 768px;
+    margin-top: -48px;
 }
 
 #ProductA {
@@ -192,4 +193,9 @@ label {
     #ProdTitle, #ProdDesc, #ProdCredits {
         border-radius: 0;
     }
+}
+
+#back {
+    font-size: 48px;
+    color: white;
 }

@@ -29,6 +29,7 @@ body{
 header {
     background-color: #060642;
     position: relative;
+    height: 64px;
 }
 
 .listas {
@@ -40,31 +41,46 @@ header {
 }
 
 .barra_busqueda {
-    width: 50%;
-    position: relative;
-    left: 39rem;
-    bottom: 40px;
+    width: 512px;
+    position: absolute;
+    display: inline;
+}
+
+#container {
+    width: 100%;
+    padding-right: 10%;
+    display: flex;
+    position: absolute;
+    bottom: 52px;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 950px) {
+    .barra_busqueda {
+        width: 432px;
+    }
+    header {
+        height: 128px;
+    }
 }
 
 .logo_lupa{
     background-color: #FFFFFF;
     padding: 14px 10px;
     border-radius: 4px;
-    position: relative;
-    left: 38rem;
-    bottom: 40px;
+    position:absolute;
     width: fit-content;
+    display: inline;
 }
 
 .imagen_header{
-    position: relative;
-    max-width: 90px;
+    position: absolute;
+    width: 44px;
+    right: 16px;
     height: 44px;
-    left: 90rem;
-    bottom: 103px;
     background-color: #FFFFFF;
     border-radius: 8px;
-    padding: 7px 9px;
+    padding: 8px;
 }
 
 .imagen_fondo_header{
