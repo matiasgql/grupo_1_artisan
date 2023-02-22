@@ -11,7 +11,7 @@
 1. Alex Gonzalez
 1. Nahuel Liendro
 
-[Notion](https://efficacious-cost-b5c.notion.site/Artisan-13f5d53786f44b788e127da2e252e271)
+En [Notion](https://efficacious-cost-b5c.notion.site/Artisan-13f5d53786f44b788e127da2e252e271) tenemos el tablero y las tareas asignadas
 
 ### Fuentes:
 
