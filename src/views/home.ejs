@@ -22,7 +22,7 @@
             <div class="swiper-wrapper">
                 <% datosHome.forEach( dato => { %>
                     <a class="swiper-slide categoria" href="#<%=dato.categoriaNombre%>">
-                        <img class="category-img" src="../images/Categoria_Animales.jpeg">
+                        <img class="category-img" src="images/<%=dato.categoriaImg%>">
                         <h3 class="category-name"><%=dato.categoriaNombre%></h3>
                     </a>
                 <% }); %>
@@ -35,7 +35,7 @@
             <%- include("partials/slider", {dato: dato}); %>
         <% }); %>
     </main>
-    <script src="src/js/slider-settings.js"></script>
+    <script src="/js/slider-settings.js"></script>
     <footer>
         <div class="image-flex">
             <a href="Instagram">
