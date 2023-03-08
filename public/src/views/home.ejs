@@ -20,45 +20,18 @@
         <!-- Slider Categorias-->
         <section class="swiper">
             <div class="swiper-wrapper">
-                <a class="swiper-slide categoria" href="#animales">
-                    <img class="category-img" src="../images/Categoria_Animales.jpeg">
-                    <h3 class="category-name">Animales</h3>
-                </a>
-                <a class="swiper-slide categoria" href="#cat2">
-                    <img class="category-img" src="../images/Categoria_Animales.jpeg">
-                    <h3 class="category-name">Categoria2</h3>
-                </a>
-                <a class="swiper-slide categoria" href="#cat3">
-                    <img class="category-img" src="../images/Categoria_Animales.jpeg">
-                    <h3 class="category-name">Categoria3</h3>
-                </a>
-                <a class="swiper-slide categoria" href="#cat4">
-                    <img class="category-img" src="../images/Categoria_Animales.jpeg">
-                    <h3 class="category-name">Categoria4</h3>
-                </a>
-                <a class="swiper-slide categoria" href="">
-                    <img class="category-img" src="../images/Categoria_Animales.jpeg">
-                    <h3 class="category-name">Categoria5</h3>
-                </a>
-                <a class="swiper-slide categoria" href="">
-                    <img class="category-img" src="../images/Categoria_Animales.jpeg">
-                    <h3 class="category-name">Categoria6</h3>
-                </a>
-                <a class="swiper-slide categoria" href="">
-                    <img class="category-img" src="../images/Categoria_Animales.jpeg">
-                    <h3 class="category-name">Categoria7</h3>
-                </a>
-                <a class="swiper-slide categoria" href="">
-                    <img class="category-img" src="../images/Categoria_Animales.jpeg">
-                    <h3 class="category-name">Categoria8</h3>
-                </a>
+                <% datosHome.forEach( dato => { %>
+                    <a class="swiper-slide categoria" href="#<%=dato.categoriaNombre%>">
+                        <img class="category-img" src="../images/Categoria_Animales.jpeg">
+                        <h3 class="category-name"><%=dato.categoriaNombre%></h3>
+                    </a>
+                <% }); %>
             </div>
             <!-- Botones de navegación-->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </section>
-        <%- include("partials/slider") %>
-        <% datosHome.forEach(function(dato){ %>
+        <% datosHome.forEach( dato => { %>
             <%- include("partials/slider", {dato: dato}); %>
         <% }); %>
     </main>

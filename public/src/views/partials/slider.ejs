@@ -1,62 +1,9 @@
-<label id="animales" class="category-label"><%= datosHome.categoriaNombre %></label>
+<label id="<%= dato.categoriaNombre %>" class="category-label"><%= dato.categoriaNombre %></label>
 <section class="swiper products">
     <div class="swiper-wrapper ">
-        <a class="swiper-slide product" href="/detalle_producto">
-            <img class="product-img" src="../images/producto.png">
-            <span class="product-info">
-                <h4>Precio $20</h4>
-                <h2>Producto 1</h2>
-            </span>
-        </a>
-        <a class="swiper-slide product" href="/detalle_producto">
-            <img class="product-img" src="../images/producto.png">
-            <span class="product-info">
-                <h4>Precio $20</h4>
-                <h2>Producto 1</h2>
-            </span>
-        </a>
-        <a class="swiper-slide product" href="/detalle_producto">
-            <img class="product-img" src="../images/producto.png">
-            <span class="product-info">
-                <h4>Precio $20</h4>
-                <h2>Producto 1</h2>
-            </span>
-        </a>
-        <a class="swiper-slide product" href="/detalle_producto">
-            <img class="product-img" src="../images/producto.png">
-            <span class="product-info">
-                <h4>Precio $20</h4>
-                <h2>Producto 1</h2>
-            </span>
-        </a>
-        <a class="swiper-slide product" href="/detalle_producto">
-            <img class="product-img" src="../images/producto.png">
-            <span class="product-info">
-                <h4>Precio $20</h4>
-                <h2>Producto 1</h2>
-            </span>
-        </a>
-        <a class="swiper-slide product" href="/detalle_producto">
-            <img class="product-img" src="../images/producto.png">
-            <span class="product-info">
-                <h4>Precio $20</h4>
-                <h2>Producto 1</h2>
-            </span>
-        </a>
-        <a class="swiper-slide product" href="/detalle_producto">
-            <img class="product-img" src="../images/producto.png">
-            <span class="product-info">
-                <h4>Precio $20</h4>
-                <h2>Producto 1</h2>
-            </span>
-        </a>
-        <a class="swiper-slide product" href="/detalle_producto">
-            <img class="product-img" src="../images/producto.png">
-            <span class="product-info">
-                <h4>Precio $20</h4>
-                <h2>Producto 1</h2>
-            </span>
-        </a>
+        <% dato.datosProductos.forEach( datoProducto => { %>
+            <%- include("product", {datoProducto: datoProducto}); %>
+        <% }); %>
     </div>
     <!-- Botones de navegación-->
     <div class="swiper-button-prev"></div>
