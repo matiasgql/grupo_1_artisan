@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("../partials/head", {title: "Listado de productos"})  %> 
+<body>
+    <%- include("../partials/header")  %> 
+    <h2>Este es es el listado de productos del proyecto de CRUD</h2>
+    <ul id="products-list">
+        <% for( let i = 0; i < products.length; i++ ) { %>
+            <li class="product-container">
+                <a href="/products/detail/" <%= products[i].id %>>
+                    <p class="product-title"><%= products[i].name %></p>
+                    <h4 class="product-price"><% products[i].price %></h4>
+                </a>
+            </li>
+        <% } %>
+        <li class="product-container">
+            <a href="/products/detail/">
+                <img src="/img/products/producto2.png" alt="" class="product-img">
+                <p class="product-title">Producto 2</p>
+                <h4 class="product-price">$200</h4>
+                <h6 class="product-category">Categoría 2</h6>
+            </a>
+        </li>
+        <li class="product-container">
+            <a href="/products/detail/">
+                <img src="/img/products/producto3.png" alt="" class="product-img">
+                <p class="product-title">Producto 3</p>
+                <h4 class="product-price">$300</h4>
+                <h6 class="product-category">Categoría 3</h6>
+            </a>
+        </li>
+        <li class="product-container">
+            <a href="/products/detail/">
+                <img src="/img/products/producto4.png" alt="" class="product-img">
+                <p class="product-title">Producto 4</p>
+                <h4 class="product-price">$400</h4>
+                <h6 class="product-category">Categoría 4</h6>
+            </a>
+        </li>
+    </ul>
+    <a href="/products/create">Crear nuevo producto</a>
+</body>
+</html>
