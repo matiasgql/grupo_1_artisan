@@ -1,3 +1,4 @@
+// cree controladores para cada pagina y la exporte para llmarla de las rutas 
 const controller ={
     home: (req,res) =>{
         res.render("home")
