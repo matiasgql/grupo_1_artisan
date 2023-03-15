@@ -3,7 +3,7 @@ const app = Router();
 const controllerProducts = require("../controllers/productsController");
 
 
-app.get("/createProducts",controllerProducts.createProduct);
+app.get("/createProduct",controllerProducts.createProduct);
 
 app.get("/editionProduct",controllerProducts.editionProduct);
 

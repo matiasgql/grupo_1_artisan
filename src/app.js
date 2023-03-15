@@ -21,7 +21,7 @@ const homeRoutes = require("./routes/main")
 app.use("/",homeRoutes)
 
 const productRoutes = require("./routes/productRoutes");
-app.use("/products",productRoutes);
+app.use("/product",productRoutes);
 
 
 // renderise rutas e use el resolve 
