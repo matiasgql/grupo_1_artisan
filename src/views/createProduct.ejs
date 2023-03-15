@@ -8,6 +8,27 @@
     <title>Creacion de Producto</title>
 </head>
 <body>
-    <h1>holaaa comos estas alexxxx</h1>
+    <article>
+        <form action="">
+            <label for="product-name">Nombre del producto</label>
+            <input type="text" name="product-name" id="product-name">
+            <label for="product-description">Descripcion del producto</label>
+            <textarea type="text" name="product-description" id="product-description"></textarea>
+            <label for="product-price">Precio del producto</label>
+            <input type="number" name="product-price" id="product-price">
+            <label for="product-category">Categoria del producto</label>
+            <select name="product-category" id="product-category">
+                <option value="Animales">Animales</option>
+                <option value="Paisajes">Paisajes</option>
+                <option value="Ilustraciones">Ilustraciones</option>
+                <option value="Vehiculos">Vehiculos</option>
+            </select>
+            <label for="product-image" id="custom-file-upload">
+                Elegir imagen del producto
+                <input type="file" name="product-image" id="product-image" accept=".png,.jpg,.webp,.jpeg">
+            </label>
+            <button type="submit">Crear Producto</button>
+        </form>
+    </article>
 </body>
 </html>

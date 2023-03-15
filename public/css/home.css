@@ -221,13 +221,13 @@ h4 {
     0% {
         cursor: pointer;
         transform: translateY(0px);
-        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+        box-shadow: rgba(1, 1, 1, 0) 0px 0px 0px;
     }
 
     100% {
         cursor: pointer;
         transform: translateY(-16px);
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+        box-shadow: rgb(255, 255, 255, 0.6) 0px 8px 24px;
     }
 }
 
@@ -237,7 +237,7 @@ h4 {
     animation-duration: 100ms;
     cursor: pointer;
     transform: translateY(-16px);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    box-shadow: rgb(255, 255, 255, 0.6) 0px 8px 24px;
 }
 
 .swiper-button-prev {
