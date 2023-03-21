@@ -9,7 +9,12 @@ app.get("/login", mainController.login);
 
 app.get("/productCart", mainController.productCart);
 
-app.get("/productDetail", mainController.productDetail);
+//metodo http
+app.get("/productDetail/", mainController.productDetail);
+//app.get("/productDetail/:id", mainController.productDetail);
+//app.post()
+
+
 
 app.get("/register", mainController.register);
 

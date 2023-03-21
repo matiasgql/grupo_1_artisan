@@ -1,0 +1,78 @@
+// archivo JSON de productos con sus porpiedades
+[
+  {
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Paisaje",
+    "price": 200
+  },
+  {
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Paisaje",
+    "price": 200
+  },
+  {
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Paisaje",
+    "price": 200
+  },{
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Animales",
+    "price": 200
+  },{
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Animales",
+    "price": 200
+  },{
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Animales",
+    "price": 200
+  },{
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Ilustraciones",
+    "price": 200
+  },{
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Ilustracioness",
+    "price": 200
+  },{
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Ilustraciones",
+    "price": 200
+  },{
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Vehículos",
+    "price": 200
+  },{
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "vehículos",
+    "price": 200
+  },{
+    "id": 4,
+    "name": "NFST",
+    "image": "",
+    "category": "Vehículos",
+    "price": 200
+  }
+]

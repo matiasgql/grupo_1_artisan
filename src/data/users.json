@@ -1,0 +1,10 @@
+// archivo JSON de usuarios con sus propiedades
+[
+    {
+        "Id" :1,
+        "Name" : "alex",
+        "lastName": "Gonzalez",
+        "email": "feralexgon11@gmail.com",
+        "password": 12345
+    }
+]
