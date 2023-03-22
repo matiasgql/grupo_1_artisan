@@ -5,7 +5,9 @@ const controllerProducts = {
     },
     editionProduct: (req,res) =>{
         res.render("editionProduct")
+
     }
+    
 };
 
 module.exports = controllerProducts

@@ -31,7 +31,9 @@ const controller = { // Creamos el controlador
         return res.render("products/detail",{product:productoEnviar});
     },
     // U - Update - Actualizar
+
     // D - Delete - Eliminar
+    
 };
 
 // Exportamos el controlador

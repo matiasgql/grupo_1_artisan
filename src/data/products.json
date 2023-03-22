@@ -1,21 +1,21 @@
 // archivo JSON de productos con sus porpiedades
 [
   {
-    "id": 4,
+    "id": 1,
     "name": "NFST",
     "image": "",
     "category": "Paisaje",
     "price": 200
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "NFST",
     "image": "",
     "category": "Paisaje",
     "price": 200
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "NFST",
     "image": "",
     "category": "Paisaje",
@@ -27,25 +27,25 @@
     "category": "Animales",
     "price": 200
   },{
-    "id": 4,
+    "id": 5,
     "name": "NFST",
     "image": "",
     "category": "Animales",
     "price": 200
   },{
-    "id": 4,
+    "id": 6,
     "name": "NFST",
     "image": "",
     "category": "Animales",
     "price": 200
   },{
-    "id": 4,
+    "id": 7,
     "name": "NFST",
     "image": "",
     "category": "Ilustraciones",
     "price": 200
   },{
-    "id": 4,
+    "id": 8,
     "name": "NFST",
     "image": "",
     "category": "Ilustracioness",

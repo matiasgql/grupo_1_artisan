@@ -63,12 +63,9 @@ let datosHome = [
     },
 ]
 
-const controller ={
+const controllerMain ={
     home: (req,res,) =>{
         res.render("home",{datosHome})
-    },
-    login: (req,res) => {
-        res.render("login")
     },
     productCart: (req,res) => {
         res.render("productCart")
@@ -76,9 +73,6 @@ const controller ={
     productDetail: (req,res) => {
         res.render("productDetail")
     },
-    register: (req,res) => {
-        res.render("register")
-    }
 }
 
-module.exports = controller
+module.exports = controllerMain
