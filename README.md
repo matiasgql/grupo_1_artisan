@@ -6,10 +6,10 @@
 ![alt text](https://i.imgur.com/NPARW5M.png)
 
 ### Participantes:
-1. Matias Gabriel Quinzan Linares
-1. Mateo Guzman
-1. Alex Gonzalez
-1. Nahuel Liendro
+- Matias Gabriel Quinzan Linares
+- Mateo Guzman
+- Alex Gonzalez
+- Nahuel Liendro
 
 En [Notion](https://efficacious-cost-b5c.notion.site/Artisan-13f5d53786f44b788e127da2e252e271) tenemos el tablero y las tareas asignadas
 
@@ -20,16 +20,16 @@ Titulos: [Rajdhani](https://fonts.google.com/specimen/Rajdhani?query=Rajdhani&pr
 Cuerpo: [Montserrat](https://fonts.google.com/specimen/Montserrat?query=monts)
 
 ### Páginas de referencia:
-1. [Foundation](https://foundation.app/world/monolith-exhibition-x)
+- [Foundation](https://foundation.app/world/monolith-exhibition-x)
 la distribucion de sus colores y como esta organizado el sitio web
 
-1. [OpenSea](https://opensea.io/es)
+- [OpenSea](https://opensea.io/es)
 busqueda por categorias (que no tenga el problema de cuando mueves a contrareloj)
 
-1. [Rarible](https://rarible.com/)
+- [Rarible](https://rarible.com/)
 los cuadros de texto para dividir todo
 
-1. [Binance NFT](https://www.binance.com/en/nft/home)
+- [Binance NFT](https://www.binance.com/en/nft/home)
  
-1. [Razer](https://www.razer.com/)
+- [Razer](https://www.razer.com/)
 el color verde como color acentual
