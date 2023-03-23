@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const app = Router();
-const controllerUsers = require("../controllers/users");
+const controllerUsers = require("../controllers/usersController");
 
 //rutas de login y register llamadas desde su controlador
 app.get("/login", controllerUsers.login );

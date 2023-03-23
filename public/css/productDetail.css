@@ -16,7 +16,8 @@ body {
 #ProdImg {
     padding: 64px;
     width: 768px;
-    margin-top: -48px;
+    padding-top: 0px;
+    margin-top: 16px;
 }
 
 #ProductA {

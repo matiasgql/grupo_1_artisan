@@ -1,78 +1,134 @@
-// archivo JSON de productos con sus porpiedades
 [
   {
-    "id": 1,
-    "name": "NFST",
-    "image": "",
-    "category": "Paisaje",
-    "price": 200
+    "categoriaNombre": "Paisajes",
+    "categoriaImg": "Categoria_Animales.jpeg",
+    "datosProductos": [
+      {
+        "id": 1,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Paisaje",
+        "price": 200
+      },
+      {
+        "id": 2,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Paisaje",
+        "price": 200
+      },
+      {
+        "id": 3,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Paisaje",
+        "price": 200
+      }
+    ]
   },
   {
-    "id": 2,
-    "name": "NFST",
-    "image": "",
-    "category": "Paisaje",
-    "price": 200
+    "categoriaNombre": "Animales",
+    "categoriaImg": "Categoria_Animales.jpeg",
+    "datosProductos": [
+      {
+        "id": 4,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Animales",
+        "price": 200
+      },
+      {
+        "id": 5,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Animales",
+        "price": 200
+      },
+      {
+        "id": 6,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Animales",
+        "price": 200
+      }
+    ]
   },
   {
-    "id": 3,
-    "name": "NFST",
-    "image": "",
-    "category": "Paisaje",
-    "price": 200
-  },{
-    "id": 4,
-    "name": "NFST",
-    "image": "",
-    "category": "Animales",
-    "price": 200
-  },{
-    "id": 5,
-    "name": "NFST",
-    "image": "",
-    "category": "Animales",
-    "price": 200
-  },{
-    "id": 6,
-    "name": "NFST",
-    "image": "",
-    "category": "Animales",
-    "price": 200
-  },{
-    "id": 7,
-    "name": "NFST",
-    "image": "",
-    "category": "Ilustraciones",
-    "price": 200
-  },{
-    "id": 8,
-    "name": "NFST",
-    "image": "",
-    "category": "Ilustracioness",
-    "price": 200
-  },{
-    "id": 4,
-    "name": "NFST",
-    "image": "",
-    "category": "Ilustraciones",
-    "price": 200
-  },{
-    "id": 4,
-    "name": "NFST",
-    "image": "",
-    "category": "Vehículos",
-    "price": 200
-  },{
-    "id": 4,
-    "name": "NFST",
-    "image": "",
-    "category": "vehículos",
-    "price": 200
-  },{
-    "id": 4,
-    "name": "NFST",
-    "image": "",
-    "category": "Vehículos",
-    "price": 200
+    "categoriaNombre": "Ilustraciones",
+    "categoriaImg": "Categoria_Animales.jpeg",
+    "datosProductos": [
+      {
+        "id": 7,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Ilustraciones",
+        "price": 200
+      },
+      {
+        "id": 8,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Ilustraciones",
+        "price": 200
+      },
+      {
+        "id": 9,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Ilustraciones",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "categoriaNombre": "Vehiculos",
+    "categoriaImg": "Categoria_Animales.jpeg",
+    "datosProductos": [
+      {
+        "id": 10,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Vehículos",
+        "price": 200
+      },
+      {
+        "id": 11,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "vehículos",
+        "price": 200
+      },
+      {
+        "id": 12,
+        "name": "NFST",
+        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
+        "owner": "Nombre Apellido",
+        "img": "producto.png",
+        "category": "Vehículos",
+        "price": 200
+      }
+    ]
   }
 ]

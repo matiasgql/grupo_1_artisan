@@ -7,6 +7,13 @@ app.get("/createProduct",controllerProducts.createProduct);
 
 app.get("/editionProduct",controllerProducts.editionProduct);
 
+app.get("/productCart", controllerProducts.productCart);
+
+//metodo http
+app.get("/productDetail/:id", controllerProducts.productDetail);
+//app.get("/productDetail/:id", mainController.productDetail);
+//app.post()
+
 //app.get("/editionProduct/:id/edit",controllerProducts.edit);
 
 
