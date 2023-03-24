@@ -1,133 +1,133 @@
 [
   {
     "categoriaNombre": "Paisajes",
-    "categoriaImg": "Categoria_Animales.jpeg",
+    "categoriaImg": "paisaje4.png",
     "datosProductos": [
       {
         "id": 1,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "El Dorado",
+        "desc": "Se dice que esta imagen produce riqueza infinita, ¿Tú que opinas? 🤔",
+        "owner": "Gemma Da-Silva",
+        "img": "paisaje.png",
         "category": "Paisaje",
-        "price": 200
+        "price": 1200
       },
       {
         "id": 2,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Galaxya",
+        "desc": "Los cientificos dicen que es un portal intergalactico que no se sabe donde lleva, o quiza es un simple diujo 😋",
+        "owner": "Emilio Riquelme",
+        "img": "paisaje2.png",
         "category": "Paisaje",
-        "price": 200
+        "price": 1000
       },
       {
         "id": 3,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Risco Montañoso",
+        "desc": "¿Es un risco o una Montaña? con razon las buenas lenguas dicen: 'las apariencias engañan 😳'",
+        "owner": "Angel Aguilera",
+        "img": "paisaje3.png",
         "category": "Paisaje",
-        "price": 200
+        "price": 700
       }
     ]
   },
   {
     "categoriaNombre": "Animales",
-    "categoriaImg": "Categoria_Animales.jpeg",
+    "categoriaImg": "animal4.png",
     "datosProductos": [
       {
         "id": 4,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Pinguitastico",
+        "desc": "Este NFT es un claro ejemplo de como serian los pinguinos si es que nos llegan a dominar el mundo 🌍",
+        "owner": "Pere Gil",
+        "img": "animal.png",
         "category": "Animales",
-        "price": 200
+        "price": 1500
       },
       {
         "id": 5,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "El perro apocaliptico",
+        "desc": "El objetivo de este animal, es poder sobrevivir a un apocalipsis. Si es que llega, claro... 🐶",
+        "owner": "Gaspar Puig",
+        "img": "animal2.png",
         "category": "Animales",
-        "price": 200
+        "price": 900
       },
       {
         "id": 6,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Mostro",
+        "desc": "Les presento al MOSTRO, primo hermano de pie grande, pero ¡ten cuidado!, su tumaño es engañoso 👀",
+        "owner": "Meritxell Morillo",
+        "img": "animal3.png",
         "category": "Animales",
-        "price": 200
+        "price": 2200
       }
     ]
   },
   {
     "categoriaNombre": "Ilustraciones",
-    "categoriaImg": "Categoria_Animales.jpeg",
+    "categoriaImg": "ilustracion2.png",
     "datosProductos": [
       {
         "id": 7,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Mr Pensante",
+        "desc": "¿Una pintura o ilusion optica?¿Una persona o el universo devorando un planeta? 😵‍💫",
+        "owner": "Amelia Berrocal",
+        "img": "ilustracion.png",
         "category": "Ilustraciones",
-        "price": 200
+        "price": 1600
       },
       {
         "id": 8,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Sire-Statua",
+        "desc": "¿Porque las sirenas no juegan al tenis? por miedo a quedarse atrapadas en la red 🧜‍♀️",
+        "owner": "Dumitru Seco",
+        "img": "ilustracion4.png",
         "category": "Ilustraciones",
-        "price": 200
+        "price": 1150
       },
       {
         "id": 9,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Portal",
+        "desc": "El universo abriendo un portal al nunca jamas visto, y por aver... 🌀",
+        "owner": "Valentina Pacheco",
+        "img": "ilustracion3.png",
         "category": "Ilustraciones",
-        "price": 200
+        "price": 700
       }
     ]
   },
   {
     "categoriaNombre": "Vehiculos",
-    "categoriaImg": "Categoria_Animales.jpeg",
+    "categoriaImg": "vehiculo4.png", 
     "datosProductos": [
       {
         "id": 10,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Auto 1004",
+        "desc": "Eh aqui, el Aeromobil. O mas sencillo llamarle auto volador :) 🚗",
+        "owner": "Mariam Pedrosa",
+        "img": "vehiculo.png",
         "category": "Vehículos",
-        "price": 200
+        "price": 1005
       },
       {
         "id": 11,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Auto 696",
+        "desc": "Si llega la tercera guerra mundial, este auto sera uno de los primeros en ponerse a prueba (uso exclusivo del gobierno) ☠️",
+        "owner": "Alexander Valenzuela",
+        "img": "vehiculo2.png",
         "category": "vehículos",
-        "price": 200
+        "price": 1200
       },
       {
         "id": 12,
-        "name": "NFST",
-        "desc": "Nuestro producto es un producto de animales que se encuentra dis",
-        "owner": "Nombre Apellido",
-        "img": "producto.png",
+        "name": "Auto Futurista",
+        "desc": "El auto futurista no es del futuro, sino del pasado ¿porque? porque viene de blanco y negro ⬜⬛",
+        "owner": "Orlando Castells",
+        "img": "vehiculo3.png",
         "category": "Vehículos",
-        "price": 200
+        "price": 1800
       }
     ]
   }
