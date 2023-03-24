@@ -25,15 +25,20 @@ body {
 }
 
 #ProdDetails {
-    padding: 64px;
+    margin: 64px;
     padding-top: 0;
+    border-radius: 8px;
+    background-color: #F0F0F0;
+    text-align: center;
 }
 
 #ProdTitle, #ProdDesc, #ProdCredits {
-    background-color: #060642;
-    color: white;
-    padding: 16px;
+    color: black;
+    padding: 64px;
+    padding-top: 0px;
+    padding-bottom: 8px;
     border-radius: 16px;
+    text-align:left;
 }
 
 #ProdTitle {
@@ -59,8 +64,8 @@ body {
     text-decoration: none;
     padding: 16px;
     border-radius: 16px;
-    color: black;
-    background-color: #00FF00;
+    color: white;
+    background-color: black;
 }
 
 a {
@@ -70,17 +75,16 @@ a {
 }
 
 .products {
-    background-color: #060642;
     width: 100%;
     margin-top: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .product-info{
-    background-color: white;
     border-radius: 8px;
     font-size: 24px;
     z-index: 4;
@@ -89,6 +93,8 @@ a {
     color: black;
     display: none;
     height: 0px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .product-img {
@@ -98,7 +104,7 @@ a {
 
 .product {
     display: flexbox;
-    width: 25%;
+    width: 24%;
     border-radius: 8px;
     min-width: 256px;
 }
@@ -156,7 +162,7 @@ h4 {
     100% {
         cursor: pointer;
         transform:translateY(-16px);
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+        box-shadow: rgb(0, 0, 0, 0.6) 0px 32px 24px;
     }
 }
 
@@ -165,7 +171,7 @@ h4 {
     animation-duration: 100ms;
     cursor: pointer;
     transform:translateY(-16px);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    box-shadow: rgb(0, 0, 0, 0.6) 0px 32px 24px;
 }
 
 label {
@@ -174,8 +180,6 @@ label {
     margin-top: 128px;
     margin-left: 16px;
     padding: 8px;
-    border-radius: 8px;
-    background-color: #A6A6A6;
 }
 
 @media (max-width: 1400px) {
