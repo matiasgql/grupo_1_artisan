@@ -11,7 +11,9 @@
 - Alex Gonzalez
 - Nahuel Liendro
 
-En [Notion](https://efficacious-cost-b5c.notion.site/Artisan-13f5d53786f44b788e127da2e252e271) tenemos el tablero y las tareas asignadas
+[Tablero de tareas asignadas](https://efficacious-cost-b5c.notion.site/Artisan-13f5d53786f44b788e127da2e252e271) 
+
+[Tablero de llamadas](https://efficacious-cost-b5c.notion.site/3af4ebce49d44750813cfd03c1048b97?v=713cecae61c54f3792a2017554368dfb)
 
 ### Fuentes:
 
