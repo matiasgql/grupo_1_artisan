@@ -1,7 +1,11 @@
 const {resolve} = require("path")
 const express = require("express")
+//const sessionExpress = require("express-session")
 const app = express()
 const port = 4060
+
+//requerimos express session
+//app.use(session ({secret: "Mensaje Secreto"}));
 
 //motor de vistas para ejs  y cambie los archivos html a ejs 
 app.set ('views', resolve(__dirname, 'views'));

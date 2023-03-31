@@ -38,6 +38,7 @@ header {
     background-color: black;
     padding: 10px;
     margin: 5px;
+    margin-top: 12px;
     border-radius: 10px;
 }
 
@@ -279,13 +280,14 @@ footer {
     display: flex;
     justify-content: end;
     margin: 16px;
+    margin-top: -12px;
     gap: 20px;
 }
 
 .main-image {
     max-width: 200px;
     height: 200px;
-    margin: 20px;
+    margin: 20px 30px; 
     display: flex;
 }
 
