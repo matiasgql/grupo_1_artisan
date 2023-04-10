@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="/css/register.css">
 </head>
 <body>
-    <form action="">
+    <form action="/users/register" method="post" enctype="multipart/form-data">
         <h1>REGISTRO DE CUENTA</h1>
-        <input type="text" name="fname" placeholder="Nombre">
-        <input type="text" name="lname" placeholder="Apellido">
+        <input type="text" name="nombre" placeholder="Nombre" >
+        <input type="text" name="apellido" placeholder="Apellido">
         <input type="email" name="email" placeholder="Correo">
-        <input type="password" name="Passwd" placeholder="Contraseña">
-        <input type="password" name="ConfirmPasswd" placeholder="Confirmación de contraseña">
+        <input type="password" name="clave" placeholder="Contraseña">
+        <label for="product-image" class="archivo">
+            Elige una imagen de perfil 
+            <input type="file" name="imagen-usuario"caccept=".png,.jpg,.webp,.jpeg">
+        </label>
         <span><p>¿Tienes una cuenta? </p><a href="/login">Inicia Sesión.</a></span>
         <button type="submit">SIGUIENTE</button>
     </form>

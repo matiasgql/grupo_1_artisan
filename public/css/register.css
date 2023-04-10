@@ -102,6 +102,9 @@ img {
     margin-left: -3px;
     top: 0;
 }
+.archivo{
+    color: azure;
+}
 
 @media (max-width: 900px) {
     body {

@@ -2,6 +2,11 @@ const { Router } = require("express");
 const app = Router();
 const controllerProducts = require("../controllers/productsController");
 
+//proceso de multer aca 
+
+
+
+
 
 app.get("/createProduct",controllerProducts.createProduct);
 
@@ -11,19 +16,10 @@ app.get("/productCart", controllerProducts.productCart);
 
 //metodo http
 app.get("/productDetail/:id", controllerProducts.productDetail);
-//app.get("/productDetail/:id", mainController.productDetail);
-//app.post()
-
-//app.get("/editionProduct/:id/edit",controllerProducts.edit);
 
 
-//app.put("/editionProduct/:id",controllerProducts.edit);
 
 
-//app.delete("/editionProduct/:id",controllerProducts.delete);
-
-
-//rutas para eliminar y buscar productos / (rutas parametrisadas) con CRUD
 
 
 

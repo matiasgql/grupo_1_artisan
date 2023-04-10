@@ -10,7 +10,9 @@
 <body>
     <form action="">
         <h1>INICIO DE SESIÓN</h1>
-        <input type="email" name="email" placeholder="Correo">
+        <input type="email" name="email" placeholder="Correo"
+        <% if(locals)
+         %>>
         <input type="password" name="Passwd" placeholder="Contraseña">
         <span><p>¿No tienes una cuenta? </p><a href="/register">Crear cuenta.</a></span>
         <button type="submit" ><a="wdsaw">SIGUIENTE</a> </button>
