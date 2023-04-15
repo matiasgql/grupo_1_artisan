@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 body {
+    font-family: "Rajdhani";
+    color: aliceblue;
     background: linear-gradient(90deg, #000 50%, #00FF00 50%);
     display: flex;
     align-items: center;
@@ -117,6 +119,7 @@ img {
     margin-left: -3px;
     top: 0;
 }
+
 
 .loginBtnImg {
     width: 48px;

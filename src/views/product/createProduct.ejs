@@ -9,15 +9,15 @@
 </head>
 <body>
     <article>
-        <form action="">
-            <label for="product-name">Nombre del producto</label>
-            <input type="text" name="product-name" id="product-name">
-            <label for="product-description">Descripcion del producto</label>
-            <textarea type="text" name="product-description" id="product-description"></textarea>
-            <label for="product-price">Precio del producto</label>
-            <input type="number" name="product-price" id="product-price">
-            <label for="product-category">Categoria del producto</label>
-            <select name="product-category" id="product-category">
+        <form action="/product/createProduct" method="post" enctype="multipart/form-data">
+            <label for="nombre">Nombre del producto</label>
+            <input type="text" name="nombre" id="product-name">
+            <label for="descricion">Descripcion del producto</label>
+            <textarea type="text" name="descricion" id="product-description"></textarea>
+            <label for="precio">Precio del producto</label>
+            <input type="number" name="precio" id="product-price">
+            <label for="categoria">Categoria del producto</label>
+            <select name="categoria" id="product-category">
                 <option value="Animales">Animales</option>
                 <option value="Paisajes">Paisajes</option>
                 <option value="Ilustraciones">Ilustraciones</option>

@@ -1,9 +1,7 @@
-<label id="<%= dato.categoriaNombre %>" class="category-label"><%= dato.categoriaNombre %></label>
+<label id="<%= dato.categoria %>" class="category-label"><%= dato.categoria %></label>
 <section class="swiper products">
     <div class="swiper-wrapper ">
-        <% dato.datosProductos.forEach( datoProducto => { %>
-            <%- include("product", {datoProducto: datoProducto}); %>
-        <% }); %>
+            <%- include("product", {datosHome: dato}); %>
     </div>
     <!-- Botones de navegación-->
     <div class="swiper-button-prev"></div>

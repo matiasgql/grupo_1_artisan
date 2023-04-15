@@ -1,134 +1,110 @@
 [
-  {
-    "categoriaNombre": "Paisajes",
-    "categoriaImg": "/catalogo/paisaje4.png",
-    "datosProductos": [
-      {
-        "id": 1,
-        "name": "El Dorado",
-        "desc": "Se dice que esta imagen produce riqueza infinita, ¿Tú que opinas? 🤔",
-        "owner": "Gemma Da-Silva",
-        "img": "/catalogo/paisaje.png",
-        "category": "Paisaje",
-        "price": 1200
-      },
-      {
-        "id": 2,
-        "name": "Galaxya",
-        "desc": "Los cientificos dicen que es un portal intergalactico que no se sabe donde lleva, o quiza es un simple diujo 😋",
-        "owner": "Emilio Riquelme",
-        "img": "/catalogo/paisaje2.png",
-        "category": "Paisaje",
-        "price": 1000
-      },
-      {
-        "id": 3,
-        "name": "Risco Montañoso",
-        "desc": "¿Es un risco o una Montaña? con razon las buenas lenguas dicen: 'las apariencias engañan 😳'",
-        "owner": "Angel Aguilera",
-        "img": "/catalogo/paisaje3.png",
-        "category": "Paisaje",
-        "price": 700
-      }
-    ]
-  },
-  {
-    "categoriaNombre": "Animales",
-    "categoriaImg": "/catalogo/animal4.png",
-    "datosProductos": [
-      {
-        "id": 4,
-        "name": "Pinguitastico",
-        "desc": "Este NFT es un claro ejemplo de como serian los pinguinos si es que nos llegan a dominar el mundo 🌍",
-        "owner": "Pere Gil",
-        "img": "/catalogo/animal.png",
-        "category": "Animales",
-        "price": 1500
-      },
-      {
-        "id": 5,
-        "name": "El perro apocaliptico",
-        "desc": "El objetivo de este animal, es poder sobrevivir a un apocalipsis. Si es que llega, claro... 🐶",
-        "owner": "Gaspar Puig",
-        "img": "/catalogo/animal2.png",
-        "category": "Animales",
-        "price": 900
-      },
-      {
-        "id": 6,
-        "name": "Mostro",
-        "desc": "Les presento al MOSTRO, primo hermano de pie grande, pero ¡ten cuidado!, su tumaño es engañoso 👀",
-        "owner": "Meritxell Morillo",
-        "img": "/catalogo/animal3.png",
-        "category": "Animales",
-        "price": 2200
-      }
-    ]
-  },
-  {
-    "categoriaNombre": "Ilustraciones",
-    "categoriaImg": "/catalogo/ilustracion2.png",
-    "datosProductos": [
-      {
-        "id": 7,
-        "name": "Mr Pensante",
-        "desc": "¿Una pintura o ilusion optica?¿Una persona o el universo devorando un planeta? 😵‍💫",
-        "owner": "Amelia Berrocal",
-        "img": "/catalogo/ilustracion.png",
-        "category": "Ilustraciones",
-        "price": 1600
-      },
-      {
-        "id": 8,
-        "name": "Sire-Statua",
-        "desc": "¿Porque las sirenas no juegan al tenis? por miedo a quedarse atrapadas en la red 🧜‍♀️",
-        "owner": "Dumitru Seco",
-        "img": "/catalogo/ilustracion4.png",
-        "category": "Ilustraciones",
-        "price": 1150
-      },
-      {
-        "id": 9,
-        "name": "Portal",
-        "desc": "El universo abriendo un portal al nunca jamas visto, y por aver... 🌀",
-        "owner": "Valentina Pacheco",
-        "img": "/catalogo/ilustracion3.png",
-        "category": "Ilustraciones",
-        "price": 700
-      }
-    ]
-  },
-  {
-    "categoriaNombre": "Vehiculos",
-    "categoriaImg": "/catalogo/vehiculo4.png", 
-    "datosProductos": [
-      {
-        "id": 10,
-        "name": "Auto 1004",
-        "desc": "Eh aqui, el Aeromobil. O mas sencillo llamarle auto volador :) 🚗",
-        "owner": "Mariam Pedrosa",
-        "img": "/catalogo/vehiculo.png",
-        "category": "Vehículos",
-        "price": 1005
-      },
-      {
-        "id": 11,
-        "name": "Auto 696",
-        "desc": "Si llega la tercera guerra mundial, este auto sera uno de los primeros en ponerse a prueba (uso exclusivo del gobierno) ☠️",
-        "owner": "Alexander Valenzuela",
-        "img": "/catalogo/vehiculo2.png",
-        "category": "vehículos",
-        "price": 1200
-      },
-      {
-        "id": 12,
-        "name": "Auto Futurista",
-        "desc": "El auto futurista no es del futuro, sino del pasado ¿porque? porque viene de blanco y negro ⬜⬛",
-        "owner": "Orlando Castells",
-        "img": "/catalogo/vehiculo3.png",
-        "category": "Vehículos",
-        "price": 1800
-      }
-    ]
-  }
+ {
+  "id": 1,
+  "nombre": "El Dorado",
+  "descripcion": "Se dice que esta imagen produce riqueza infinita, ¿Tú que opinas? 🤔",
+  "administrador": "Gemma Da-Silva",
+  "imagen": "/catalogo/paisaje.png",
+  "categoria": "Paisaje",
+  "precio": 1200
+ },
+ {
+  "id": 2,
+  "nombre": "Galaxya",
+  "descripcion": "Los cientificos dicen que es un portal intergalactico que no se sabe donde lleva, o quiza es un simple diujo 😋",
+  "administrador": "Emilio Riquelme",
+  "imagen": "/catalogo/paisaje2.png",
+  "categoria": "Paisaje",
+  "precio": 1000
+ },
+ {
+  "id": 3,
+  "nombre": "Risco Montañoso",
+  "descripcion": "¿Es un risco o una Montaña? con razon las buenas lenguas dicen: 'las apariencias engañan 😳'",
+  "owner": "Angel Aguilera",
+  "imagen": "/catalogo/paisaje3.png",
+  "categoria": "Paisaje",
+  "precio": 700
+ },
+ {
+  "id": 4,
+  "nombre": "Pinguitastico",
+  "descripcion": "Este NFT es un claro ejemplo de como serian los pinguinos si es que nos llegan a dominar el mundo 🌍",
+  "administrador": "Pere Gil",
+  "imagen": "/catalogo/animal.png",
+  "categoria": "Animales",
+  "precio": 1500
+ },
+ {
+  "id": 5,
+  "nombre": "El perro apocaliptico",
+  "descripcion": "El objetivo de este animal, es poder sobrevivir a un apocalipsis. Si es que llega, claro... 🐶",
+  "administrador": "Gaspar Puig",
+  "imagen": "/catalogo/animal2.png",
+  "categoria": "Animales",
+  "precio": 900
+ },
+ {
+  "id": 6,
+  "nombre": "Mostro",
+  "descripcion": "Les presento al MOSTRO, primo hermano de pie grande, pero ¡ten cuidado!, su tumaño es engañoso 👀",
+  "administrador": "Meritxell Morillo",
+  "imagen": "/catalogo/animal3.png",
+  "categoria": "Animales",
+  "precio": 2200
+ },
+ {
+  "id": 7,
+  "nombre": "Mr Pensante",
+  "descripcion": "¿Una pintura o ilusion optica?¿Una persona o el universo devorando un planeta? 😵‍💫",
+  "administrador": "Amelia Berrocal",
+  "imagen": "/catalogo/ilustracion.png",
+  "categoria": "Ilustraciones",
+  "precio": 1600
+ },
+ {
+  "id": 8,
+  "nombre": "Sire-Statua",
+  "descripcion": "¿Porque las sirenas no juegan al tenis? por miedo a quedarse atrapadas en la red 🧜‍♀️",
+  "administrador": "Dumitru Seco",
+  "imagen": "/catalogo/ilustracion4.png",
+  "categoria": "Ilustraciones",
+  "precio": 1150
+ },
+ {
+  "id": 9,
+  "nombre": "Portal",
+  "descripcion": "El universo abriendo un portal al nunca jamas visto, y por aver... 🌀",
+  "administrador": "Valentina Pacheco",
+  "imagen": "/catalogo/ilustracion3.png",
+  "categoria": "Ilustraciones",
+  "precio": 700
+ },
+ {
+  "id": 10,
+  "nombre": "Auto 1004",
+  "descripcion": "Eh aqui, el Aeromobil. O mas sencillo llamarle auto volador :) 🚗",
+  "administrador": "Mariam Pedrosa",
+  "imagen": "/catalogo/vehiculo.png",
+  "categoria": "Vehículos",
+  "precio": 1005
+ },
+ {
+  "id": 11,
+  "nombre": "Auto 696",
+  "descripcion": "Si llega la tercera guerra mundial, este auto sera uno de los primeros en ponerse a prueba (uso exclusivo del gobierno) ☠️",
+  "administrador": "Alexander Valenzuela",
+  "imagen": "/catalogo/vehiculo2.png",
+  "categoria": "vehículos",
+  "precio": 1200
+ },
+ {
+  "id": 12,
+  "nombre": "Auto Futurista",
+  "descripcion": "El auto futurista no es del futuro, sino del pasado ¿porque? porque viene de blanco y negro ⬜⬛",
+  "administrador": "Orlando Castells",
+  "imagen": "/catalogo/vehiculo3.png",
+  "categoria": "Vehículos",
+  "precio": 1800
+ }
 ]

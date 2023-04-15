@@ -2,9 +2,9 @@
 let fs = require('fs');
 let datosHome = JSON.parse(fs.readFileSync('src/data/products.json', 'utf8'));
 
-const controllerMain ={
-    home: (req,res,) =>{
-        res.render("home",{datosHome})
+const controllerMain = {
+    home: (req, res,) => {
+        res.render("home", { datosHome })
     }
 }
 

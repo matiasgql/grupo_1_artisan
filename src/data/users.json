@@ -1,10 +1,10 @@
 [
  {
   "id": 1,
-  "nombre": "uriel",
-  "apellido": "aguero",
-  "email": "uriaguero20@gmail.com",
-  "clave": "$2a$10$6CdzHw34BWB9WsihWSYVruTzvpFSRqXsCCY4OthCJV.P.gchguhvK",
-  "foto": "imagen de perfil1681126229413.jpeg"
+  "nombre": "alex",
+  "apellido": "gonzalez",
+  "email": "feralexgon11@gmail.com",
+  "clave": "$2a$10$JlYAizN1GFAW6SHpQetJlOH2uvUsKvi9TbtTXEMLglSvmv4nPO6x2",
+  "foto": "imagen-perfil--1681319636207.jpeg"
  }
 ]

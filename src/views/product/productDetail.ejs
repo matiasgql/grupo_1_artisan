@@ -11,13 +11,13 @@
     <div id="ProductA">
         <div id="ProdImgBG">
             <a id="back" href="javascript: history.go(-1)">◀</a>
-            <img id="ProdImg" src="/images/<%=datoProducto.img%>" alt="">
+            <img id="ProdImg" src="/images/<%=datoProducto.imagen%>" alt="">
         </div>
         <div id="ProdDetails">
-            <h1 id="ProdTitle"><%=datoProducto.name%></h1>
-            <p id="ProdDesc"><%=datoProducto.desc%></p>
-            <p id="ProdCredits">Creditos a <%=datoProducto.owner%></p>
-            <a id="BuyBtn" href="product/productCart">Comprar por $<%=datoProducto.price%></a>
+            <h1 id="ProdTitle"><%=datoProducto.nombre%></h1>
+            <p id="ProdDesc"><%=datoProducto.descripcion%></p>
+            <p id="ProdCredits">Creditos a <%=datoProducto.administrador%></p>
+            <a id="BuyBtn" href="product/productCart">Comprar por $<%=datoProducto.precio%></a>
         </div>
     </div>
     <br>

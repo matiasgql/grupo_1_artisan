@@ -21,9 +21,9 @@
         <section class="swiper">
             <div class="swiper-wrapper">
                 <% datosHome.forEach( dato => { %>
-                    <a class="swiper-slide categoria" href="#<%=dato.categoriaNombre%>">
-                        <img class="category-img" src="images/<%=dato.categoriaImg%>">
-                        <h3 class="category-name"><%=dato.categoriaNombre%></h3>
+                    <a class="swiper-slide categoria" href="#<%=dato.categoria%>">
+                        <img class="category-img" src="images/<%=dato.imagen%>">
+                        <h3 class="category-name"><%=dato.categoria%></h3>
                     </a>
                 <% }); %>
             </div>

@@ -1,8 +1,8 @@
 const { Router } = require("express");
 const app = Router();
-const mainController = require("../controllers/main"); // requeri los controladores aca
+const mainController = require("../controllers/main");
 
-//cree rutas y llame a los controladores para poder controlarlas 
-app.get("/", mainController.home)
+//RUTA DE LA HOME (PAGINA DE INICIO)
+app.get("/", mainController.home);
 
-module.exports = app
+module.exports = app;

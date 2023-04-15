@@ -8,14 +8,18 @@
     <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-    <form action="">
+    <form action="/users/procesologin" method="post">
         <h1>INICIO DE SESIÓN</h1>
-        <input type="email" name="email" placeholder="Correo"
-        <% if(locals)
-         %>>
-        <input type="password" name="Passwd" placeholder="Contraseña">
-        <span><p>¿No tienes una cuenta? </p><a href="/register">Crear cuenta.</a></span>
-        <button type="submit" ><a="wdsaw">SIGUIENTE</a> </button>
+        <input type="email" name="email" placeholder="Correo">
+        <% if (locals.errors && errors.email) { %>
+            <div class="">
+                <%= errors.email.msg %>
+            </div>
+        <% } %>
+        <input type="password" name="clave" placeholder="Contraseña">
+        <h4><input type="radio" name="recordar-usuario">Recordar Usuario</input></h4>
+        <span><p>¿No tienes una cuenta? </p><a href="/users/register">Crear cuenta.</a></span>
+        <button type="submit">SIGUIENTE</button>
     </form>
     <div>
         <a class="loginBtn" href="/login"><p class="loginBtnTxt">Iniciar Sesión con Google</p><img class="loginBtnImg" src="/images/logo/Google_Logo.png" alt=""></a>
