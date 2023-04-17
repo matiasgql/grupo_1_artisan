@@ -6,7 +6,7 @@
 body {
     font-family: "Rajdhani";
     color: aliceblue;
-    background: linear-gradient(90deg, #000 50%, #00FF00 50%);
+    background: linear-gradient(90deg, #000 50%, #ffffff 50%);
     display: flex;
     align-items: center;
 }
@@ -36,7 +36,7 @@ form {
     font-family: "Montserrat";
     margin-top: 38px;
     font-size: 17px;
-    border: #676767 solid 3px;
+    border: grey solid 3px;
 }
 
 input {
@@ -47,17 +47,18 @@ input {
     font-family: "Montserrat";
     margin-top: 38px;
     font-size: 17px;
-    border: #676767 solid 3px;
-    caret-color: #00FF00;
+    border: #ffffff solid 3px;
+    caret-color: black;
 }
 
 input:focus-visible {
-    border-color: #00FF00;
+    border-color: white;
     border-style: solid;
-    outline:  none;
+    outline: none;
 }
 
-a, p {
+a,
+p {
     color: #676767;
     font-family: "Montserrat";
     font-size: 16px;
@@ -71,12 +72,12 @@ span {
 }
 
 a {
-    color: #00FF00;
+    color: white;
 }
 
 button {
     display: flex;
-    background-color: #00FF00;
+    background-color: grey;
     border: none;
     border-radius: 8px;
     color: black;
@@ -89,8 +90,13 @@ button {
     align-items: center;
 }
 
+button :hover {
+    background-color:red;
+    transition: 500ms
+}
+
 h1 {
-    color: #00FF00;
+    color: white;
     font-family: "Rajdhani";
     font-weight: 500;
     font-size: 36px;
@@ -99,7 +105,7 @@ h1 {
 div {
     width: fit-content;
     max-width: 320px;
-    position:relative;
+    position: relative;
     left: 12.5%;
 }
 
@@ -139,6 +145,7 @@ img {
         display: flex;
         justify-content: space-around;
     }
+
     body {
         background: black;
         display: flex;
@@ -146,6 +153,7 @@ img {
         justify-content: center;
         align-items: center;
     }
+
     form {
         width: 80%;
     }
@@ -159,6 +167,7 @@ img {
     .loginBtnImg {
         display: block;
     }
+
     .loginBtnTxt {
         display: none;
     }

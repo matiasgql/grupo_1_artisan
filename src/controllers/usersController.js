@@ -8,6 +8,7 @@ const controllerUsers = {
         res.render("users/login")
     },
     procesoDeLogin: (req, res) => {
+
         // se buscar por campo el email
         let usuarioParaLoguear = Users.buscarPorCampo("email", req.body.email);
         //aca validamos si el email coicide con el registrado 
@@ -20,7 +21,10 @@ const controllerUsers = {
                 delete usuarioParaLoguear.clave
                 //logueamos al usuario
                 req.session.userLogged = usuarioParaLoguear;
-                // si coincide todo lo redirigimos al perfil
+                // si coincide todo lo redirigimos a la pagina de inicio
+                if (req.body.recordarUsuario) {
+                    res.cookie("userEmail", req.body.email, {maxAge: (1000 * 60) * 2})
+                }
                 return res.redirect("/")
             } else {
                 //si no a la vista register para que se registre
@@ -30,7 +34,6 @@ const controllerUsers = {
     },
     register: (req, res) => {
         //cokie para guardar al usuario recibe algo para guardar,un nombre y la cantidad de duracion
-        //res.cookie("", "", { maxAge: 1000 * 60 })
         res.render("users/register")
     },
     procesoDeRegistro: (req, res) => {
@@ -41,8 +44,7 @@ const controllerUsers = {
         }
     },
     perfil: (req, res) => {
-        //corregir errores por que no me toma la variable user para mostrar las propiedades
-        //console.log( req.session.userLogged)
+        
         res.render("users/perfil"), {
             user: req.session.userLogged
         }
@@ -52,10 +54,12 @@ const controllerUsers = {
         res.render("users/editarUsuario")
     },
     cerrarSersion: (req, res) => {
+        //eliminar cookie cuando cierro session
+        res.clearCookie("userEmail");
         //este metodo borra todo lo que este en session
-        req.session.destroy()
+        req.session.destroy();
         // esto redirige a la pagina de inicio (home)
-        return res.redirect("/")
+        return res.redirect("/");
         //hacer una pestañitar para cerrar sesion
     }
 }

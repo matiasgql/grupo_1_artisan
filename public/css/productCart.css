@@ -8,12 +8,12 @@ body {
 }
 
 th, td {
-    color: white;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin: 0px;
     padding: 16px;
-    background-color: #060642;
+    background-color: white;
     text-align: center;
 }
 
@@ -40,13 +40,13 @@ img {
     font-size: 48px;
     font-weight: 500;
     text-transform: uppercase;
-    background-color: #0F0;
+    background-color: grey;
     padding: 16px;
     border-radius: 8px;
 }
 
 h1 {
-    color: #0F0;
+    color: white;
     font-family: 'Rajdhani', sans-serif;
     font-size: 48px;
     font-weight: 500;

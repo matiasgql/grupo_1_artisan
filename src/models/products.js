@@ -33,7 +33,7 @@ const productos = {
         let nuevoProducto = {
             id: this.generarid(),
             nombre: productData.nombre,
-            descrpcion: productData.descrpcion,
+            descripcion: productData.descripcion,
             imagen: imagen ? imagen.filename : "",
             categoria: productData.categoria,
             precio: productData.precio

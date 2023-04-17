@@ -36,7 +36,7 @@ label {
     font-family: "Rajdhani";
     margin-top: 24px;
     font-size: 36px;
-    color: #00FF00;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -68,7 +68,7 @@ input[type="file"] {
 
 #custom-file-upload {
     border: none;
-    background-color: #00FF00;
+    background-color: grey;
     display: inline-block;
     padding: 6px 12px;
     cursor: pointer;
@@ -84,14 +84,14 @@ input[type="file"] {
 }
 
 input:focus-visible, select:focus-visible, textarea:focus-visible {
-    border-color: #00FF00;
+    border-color: white;
     border-style: solid;
     outline:  none;
 }
 
 button {
     display: flex;
-    background-color: #00FF00;
+    background-color: grey;
     border: none;
     border-radius: 8px;
     color: black;
@@ -113,5 +113,5 @@ button {
 }
 
 button:hover, #custom-file-upload:hover {
-    background-color: #00dd00;
+    background-color: white;
 }

@@ -1,10 +1,10 @@
-const {resolve} = require("path");
-const express = require("express");
+const userLogueadoMiddleware = require("./middlewares/userLogueadoMidlewares");
 const session = require("express-session");
+const express = require("express");
+const {resolve} = require("path");
+const cookies = require("cookie-parser");
 const app = express();
 const port = 4060;
-const userLogueadoMiddleware = require("./middlewares/userLogueadoMidlewares")
-const cookies = require("cookie-parser")
 
 app.use(userLogueadoMiddleware)
 
@@ -47,11 +47,15 @@ app.use("/users", usersRoutes)
 
 //IMPLEMENTACIÓN DE FUNCIONALIDAD PARA EDICIÓN DE UN PRODUCTO.
 
-//IMPLEMENTACIÓN DE FUNCIONALIDAD PARA BORRAR UN PRODUCTO--> se borra bien pero fijarse si se puede borrar desde una vista 
-
-//VISTA DE FORMULARIO PARA EDITAR UN USUARIO Y MODELO DE EDITAR USUARIO 
+//VISTA DE FORMULARIO PARA EDITAR UN USUARIO Y MODELO DE EDITAR USUARIO.
 
 
-// ACORDATE DE CORREGIR ERRORES CON PROFES EN LA VISTA DE LA HOME
+//AL FINAL DE TODO PARA PULIR
+
+//IMPLEMENTACIÓN DE FUNCIONALIDAD PARA BORRAR UN PRODUCTO-->se borra bien pero fijarse si se puede borrar desde una vista 
+
+
+
+
 
 
