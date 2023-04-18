@@ -6,8 +6,6 @@ const cookies = require("cookie-parser");
 const app = express();
 const port = 4060;
 
-app.use(userLogueadoMiddleware)
-
 app.use(session({
     secret: "clave secreta",
     resave: false,
@@ -18,7 +16,6 @@ app.use(session({
 app.use(cookies());
 
 //traigo el middleware para loguear y mostrar la barra de nevegacion al usuario si esta logueado o no
-app.use(userLogueadoMiddleware);
 
 //motor de vistas para ejs  y cambie los archivos html a ejs 
 app.set ('views', resolve(__dirname, 'views'));
@@ -29,6 +26,7 @@ app.use(express.json())
 //archivo para poner estatica  y hacer publica la carpeta public
 app.use(express.static(resolve(__dirname,"../public")))
 
+app.use(userLogueadoMiddleware);
 //levanto servidor 
 app.listen(port,()=>console.log("El servidor " + port + " se levanto"))
 
@@ -48,7 +46,6 @@ app.use("/users", usersRoutes)
 //IMPLEMENTACIÓN DE FUNCIONALIDAD PARA EDICIÓN DE UN PRODUCTO.
 
 //VISTA DE FORMULARIO PARA EDITAR UN USUARIO Y MODELO DE EDITAR USUARIO.
-
 
 //AL FINAL DE TODO PARA PULIR
 

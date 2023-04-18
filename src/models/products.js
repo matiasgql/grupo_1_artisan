@@ -16,11 +16,21 @@ const productos = {
         }
         return 1;
     },
-    editarUnProducto: function () {
+    /*editarUnProducto: function (imagen,req,res) {
         let todosLosProductos = this.todosLosProductos();
-        todosLosProductos.map()
+        let editar = {
+            id : todosLosProductos.find(id => id == req.params.id),
+            nombre: req.body.nombre,
+            descripcion: req.body.descripcion,
+            imagen: imagen ? imagen.filename : "",
+            categoria: req.body.categoria,
+            precio: req.body.precio
+        }
+        todosLosProductos.push(editar);
+        fs.writeFileSync(this.nombreArchivo, JSON.stringify(todosLosProductos, null, " "))
+        return editar
 
-    },
+    },*/
 
     buscarProductoPK: function (id) {
         let todosLosProductos = this.todosLosProductos();
@@ -49,6 +59,9 @@ const productos = {
         return true
     }
 }
+
+
+
 
 module.exports = productos
 

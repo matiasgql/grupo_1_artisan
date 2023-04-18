@@ -23,7 +23,7 @@ const controllerUsers = {
                 req.session.userLogged = usuarioParaLoguear;
                 // si coincide todo lo redirigimos a la pagina de inicio
                 if (req.body.recordarUsuario) {
-                    res.cookie("userEmail", req.body.email, {maxAge: (1000 * 60) * 2})
+                    res.cookie("user", req.body.email, {maxAge: (1000 * 60) * 2})
                 }
                 return res.redirect("/")
             } else {
@@ -55,7 +55,7 @@ const controllerUsers = {
     },
     cerrarSersion: (req, res) => {
         //eliminar cookie cuando cierro session
-        res.clearCookie("userEmail");
+        res.clearCookie("user");
         //este metodo borra todo lo que este en session
         req.session.destroy();
         // esto redirige a la pagina de inicio (home)

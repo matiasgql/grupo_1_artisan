@@ -106,5 +106,13 @@
   "imagen": "/catalogo/vehiculo3.png",
   "categoria": "Vehículos",
   "precio": 1800
+ },
+ {
+  "id": 13,
+  "nombre": "cortinas",
+  "descripcion": "fikfifkdkfkfkdkfkdsfkkdkfdf",
+  "imagen": "",
+  "categoria": "autoss",
+  "precio": "20000"
  }
 ]
